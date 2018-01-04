@@ -19,7 +19,6 @@ class Nav extends Component {
     return (
       <div className="nav">
         <AppBar
-          title="Home"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
           onLeftIconButtonClick={() => this.setState({open: !this.state.open})}
         />
