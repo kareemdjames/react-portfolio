@@ -1,7 +1,6 @@
 import React from 'react'
 import Paper from 'material-ui/Paper'
 
-
 function Header() {
 
   const profileStyle = {
@@ -9,7 +8,6 @@ function Header() {
     flexDirection: 'column',
     alignItems: 'center',
     padding: 20,
-    border: '1px solid black'
   }
 
   const paperStyle = {
@@ -26,6 +24,7 @@ function Header() {
         <Paper style={paperStyle} zDepth={1} circle={true} />
         <h1>Kareem James</h1>
         <h2>Web Developer</h2>
+        <p>I'm a full-stack software developer, currently focused on modern front-end technologies. I'm using React to build my latest projects, and I'm loving it! If you are looking for a passionate dev to join your team send me an email or a DM!</p>
       </div>
     </div>
   )
