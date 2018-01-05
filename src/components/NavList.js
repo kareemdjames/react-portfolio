@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import {List, ListItem} from 'material-ui/List'
 import FontIcon from 'material-ui/FontIcon'
 import Divider from 'material-ui/Divider';
+import FontAwesome from 'react-fontawesome'
 
 function NavList() {
   return(
@@ -11,7 +12,7 @@ function NavList() {
         <Link to='/projects'>
           <ListItem
             primaryText="Projects"
-            leftIcon={<FontIcon className="fa fa-flask"/>}
+            leftIcon={<FontAwesome name='rocket' size='2x' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}/>}
           />
         </Link>
         <Divider />
