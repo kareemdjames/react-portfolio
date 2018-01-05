@@ -27,10 +27,18 @@ class Nav extends Component {
           open={this.state.open}
           onRequestChange={(open) => this.setState({open})}
         >
-          <MenuItem>Home</MenuItem>
-          <MenuItem>About</MenuItem>
-          <MenuItem>Projects</MenuItem>
-          <MenuItem>Contact</MenuItem>
+          <Link to='/'>
+            <MenuItem>Home</MenuItem>
+          </Link>
+          <Link to='/about'>
+            <MenuItem>About</MenuItem>
+          </Link>
+          <Link to='/projects'>
+            <MenuItem>Projects</MenuItem>
+          </Link>
+          <Link to='/contact'>
+            <MenuItem>Contact</MenuItem>
+          </Link>
         </Drawer>
       </div>
     )
